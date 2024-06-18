@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Art form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Chibi Art</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="getimageForm.html">Get now</a>
+            <a href="about.html">About us</a>
+
+        </nav>
+    </header>
+    <main class="formcontainer">
+        <h1 class="title">Chibi Art Form</h1>
+        <img src="./assets/26569089_5100_9_10.jpeg" alt="">
+
+        <form>
+            <label>Name</label>
+            <input type="text">
+            <label>Email</label>
+            <input type="email">
+            <label for="art">Select Chibi Art</label>
+            <select onclick="process()" name="art" id="art">
+                <option value="10">Ninja</option>
+                <option value="10">TRex</option>
+                <option value="10">Shiba</option>
+                <option value="10">Astronaut</option>
+                <option value="10">Coffe</option>
+                <option value="10">Octopus</option>
+            </select>
+        </form>
+        <!-- move outside the form so i don't have to use prevent default -->
+        <h3>Total Payment: $ <span id="total"> </span></h3>
+        <button onclick="goNext()">Process Payment</button>
+
+
+    </main>
+    <footer>
+        <h4>Coding Camp</h4>
+        <p>Copyright &copy art by : <a href="https://www.instagram.com/catalystvibes/">@catalystvibes</a> </p>
+        <p>Copyright &copy web by : <a href="https://github.com/devillies?tab=repositories">@devillies</a> </p>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
