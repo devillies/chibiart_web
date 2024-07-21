@@ -1,5 +1,5 @@
 function gotoPayment() {
-	window.location.assign('getimageForm.html')
+	window.location.assign('getimageform.html')
 }
 
 function process() {

@@ -6,7 +6,7 @@
 h1 {
 	color: yellow;
 	font-size: 40px;
-	text-align: left;
+	text-align: center;
 }
 
 header {
@@ -88,10 +88,6 @@ p {
 	/* height: 200px; */
 }
 
-.title {
-	color: #2ec1ac;
-	text-align: center;
-}
 button {
 	background-color: #5fc8f5;
 	padding: 10px;
@@ -105,7 +101,12 @@ button:hover {
 }
 
 .left {
-	margin-left: 60%;
+	margin: 0 0 0 60%;
+	padding: 12px;
+}
+.top-center {
+	margin: 10% 30%;
+	background-color: palevioletred;
 }
 
 table,
@@ -133,6 +134,49 @@ th {
 	width: 200px;
 }
 
+.tab-container {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab {
+	width: 300px;
+	height: 400px;
+	padding: 5px;
+	margin: 10px;
+	background-color: turquoise;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0.85;
+	color: palevioletred;
+}
+.tab-header {
+	text-align: center;
+}
+.tab-header h2 {
+	font-size: 25pt;
+}
+.tab-header h3 {
+	margin-top: 10px;
+	font-size: 20pt;
+}
+hr {
+	width: 80%;
+	height: 7px;
+	background-color: palevioletred;
+	margin-top: 20px;
+}
+ul {
+	margin-top: 20px;
+}
+ul li {
+	font-size: 18pt;
+}
 footer {
 	color: white;
 	text-align: center;
